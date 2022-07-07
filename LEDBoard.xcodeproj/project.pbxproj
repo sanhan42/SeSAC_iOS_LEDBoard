@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF895DE128752E8400506012 /* BoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF895DE028752E8400506012 /* BoardViewController.swift */; };
 		BF89DD7E28750AB70065364C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89DD7D28750AB70065364C /* AppDelegate.swift */; };
 		BF89DD8028750AB70065364C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89DD7F28750AB70065364C /* SceneDelegate.swift */; };
 		BF89DD8228750AB70065364C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF89DD8128750AB70065364C /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF895DE028752E8400506012 /* BoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardViewController.swift; sourceTree = "<group>"; };
 		BF89DD7A28750AB70065364C /* LEDBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEDBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF89DD7D28750AB70065364C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF89DD7F28750AB70065364C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				BF89DD7F28750AB70065364C /* SceneDelegate.swift */,
 				BF89DD8128750AB70065364C /* ViewController.swift */,
 				BF89DD8328750AB70065364C /* Main.storyboard */,
+				BF895DE028752E8400506012 /* BoardViewController.swift */,
 				BF89DD8628750AB90065364C /* Assets.xcassets */,
 				BF89DD8828750AB90065364C /* LaunchScreen.storyboard */,
 				BF89DD8B28750AB90065364C /* Info.plist */,
@@ -141,6 +144,7 @@
 				BF89DD8228750AB70065364C /* ViewController.swift in Sources */,
 				BF89DD7E28750AB70065364C /* AppDelegate.swift in Sources */,
 				BF89DD8028750AB70065364C /* SceneDelegate.swift in Sources */,
+				BF895DE128752E8400506012 /* BoardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,13 +291,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5534Y3FYT7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LEDBoard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,13 +322,17 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5534Y3FYT7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LEDBoard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
