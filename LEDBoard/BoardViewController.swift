@@ -7,12 +7,14 @@
 
 import UIKit
 
-class BoardViewController: UIViewController {
+class BoardViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var userTextFeild: UITextField!
     @IBOutlet weak var sendButton: UIButton!
     @IBOutlet weak var textColorButton: UIButton!
     @IBOutlet weak var resultLabel: UILabel!
     @IBOutlet var buttonList: [UIButton]!
+    @IBOutlet weak var textFeildView: UIView!
+    @IBOutlet weak var resultView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +24,7 @@ class BoardViewController: UIViewController {
         specificDesignButton(textColorButton, buttonTitle: "색 바꾸기", highlightedTitle: "완료")
         designTextField()
         resultLabel.numberOfLines = 0
+        self.userTextFeild.delegate = self
         // Do any additional setup after loading the view.
     }
     
@@ -78,10 +81,27 @@ class BoardViewController: UIViewController {
     
     @IBAction func tapGestureClicked(_ sender: UITapGestureRecognizer) {
         view.endEditing(true)
+        if self.textFeildView.alpha == 1 {
+            UIView.animate(withDuration: 0.5, animations: {self.textFeildView.alpha = 0})
+            UIView.animate(withDuration: 0.5, animations: {
+                self.resultView.transform = CGAffineTransform(translationX: 0, y: -82)
+            })
+        } else{
+            UIView.animate(withDuration: 0.5, animations: {self.textFeildView.alpha = 1})
+            UIView.animate(withDuration: 0.5, animations: {
+                self.resultView.transform = CGAffineTransform(translationX: 0, y: 0)
+            })
+        }
+       
     }
     
     @IBAction func exampleButtonsClicked(_ sender: UIButton) {
         view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder() // TextField 비활성화
+        return true
     }
     /*
     // MARK: - Navigation

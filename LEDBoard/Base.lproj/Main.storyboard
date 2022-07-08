@@ -46,40 +46,47 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gsl-Kl-xZ5">
-                                <rect key="frame" x="581" y="148" width="49" height="31"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nda-20-zw6">
+                                <rect key="frame" x="123" y="125" width="674" height="143"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="임시"/>
-                                <connections>
-                                    <action selector="exampleButtonsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l4S-NM-jVx"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5q-jQ-UbH">
-                                <rect key="frame" x="661" y="148" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="임시"/>
-                                <connections>
-                                    <action selector="exampleButtonsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Qb-7i-2fJ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uh-cN-3HF">
-                                <rect key="frame" x="734" y="148" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="임시"/>
-                                <connections>
-                                    <action selector="exampleButtonsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wtE-Qo-7qj"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Labelㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="cuz-mQ-ZOM">
-                                <rect key="frame" x="123" y="125" width="383" height="123"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="52"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J5q-jQ-UbH">
+                                        <rect key="frame" x="558" y="43" width="49" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="임시"/>
+                                        <connections>
+                                            <action selector="exampleButtonsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0Qb-7i-2fJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1uh-cN-3HF">
+                                        <rect key="frame" x="631" y="43" width="49" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="임시"/>
+                                        <connections>
+                                            <action selector="exampleButtonsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wtE-Qo-7qj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gsl-Kl-xZ5">
+                                        <rect key="frame" x="478" y="43" width="49" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="임시"/>
+                                        <connections>
+                                            <action selector="exampleButtonsClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l4S-NM-jVx"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Labelㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="22" translatesAutoresizingMaskIntoConstraints="NO" id="cuz-mQ-ZOM">
+                                        <rect key="frame" x="8" y="8" width="383" height="123"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="52"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" name="CustomColor"/>
@@ -90,8 +97,10 @@
                     </view>
                     <connections>
                         <outlet property="resultLabel" destination="cuz-mQ-ZOM" id="1ET-zh-ogT"/>
+                        <outlet property="resultView" destination="nda-20-zw6" id="Mnl-Fd-Mgz"/>
                         <outlet property="sendButton" destination="lBp-9T-KLx" id="9fr-3l-nPY"/>
                         <outlet property="textColorButton" destination="Gjf-pY-6me" id="nnF-JS-9fz"/>
+                        <outlet property="textFeildView" destination="tCT-Jb-MWk" id="Mt4-RX-3ib"/>
                         <outlet property="userTextFeild" destination="8iZ-U8-OTg" id="4Jh-wz-GuD"/>
                         <outletCollection property="buttonList" destination="Gjf-pY-6me" collectionClass="NSMutableArray" id="Bao-pP-gLg"/>
                         <outletCollection property="buttonList" destination="lBp-9T-KLx" collectionClass="NSMutableArray" id="Sc0-I4-zkq"/>
