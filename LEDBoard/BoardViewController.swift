@@ -84,7 +84,7 @@ class BoardViewController: UIViewController, UITextFieldDelegate {
         if self.textFeildView.alpha == 1 {
             UIView.animate(withDuration: 0.5, animations: {self.textFeildView.alpha = 0})
             UIView.animate(withDuration: 0.5, animations: {
-                self.resultView.transform = CGAffineTransform(translationX: 0, y: -82)
+                self.resultView.transform = CGAffineTransform(translationX: 0, y: -68)
             })
         } else{
             UIView.animate(withDuration: 0.5, animations: {self.textFeildView.alpha = 1})
